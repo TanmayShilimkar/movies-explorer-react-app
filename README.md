@@ -6,7 +6,7 @@ A visually-rich, Netflix-style movie web app built with **React.js**, **Tailwind
 
 ## 🚀 Live Demo
 
-🌐 [Link]
+🌐 [https://movies-explorer-by-tanmay.vercel.app/](https://movies-explorer-by-tanmay.vercel.app/)]
 
 ---
 
