@@ -2,8 +2,8 @@ import {Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import MoviePage from "./pages/MoviePage";
-import Movies from './pages/Movies';
 import Search from './pages/Search';
+import TvSeries from './pages/TvSeries'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/movie/:id" element={<MoviePage type="movie"/>} />
           <Route path="/tv/:id" element={<MoviePage type="tv" />} />
-          <Route path="/tv-series" element={<Movies />} />
+          <Route path="/tv-series" element={<TvSeries />} />
         </Routes>
       </div>
     </div>
